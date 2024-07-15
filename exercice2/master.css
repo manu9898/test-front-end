@@ -1,0 +1,965 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.piscine{
+    font-size: 22px!important;
+    font-weight: initial;
+}
+
+.mainSection {
+    width: 100vw;
+    height: 220vh;
+    display: flex;
+}
+
+.container {
+    height: 100%;
+    margin: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progressBar {
+    background-color: purple;
+    width: 10px;
+    height: 80%;
+    position: relative;
+}
+
+.stop {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-7%);
+}
+
+.square {
+    background-color: black;
+    width: 30px;
+    height: 15px;
+    transform: translate(1px,10px);
+
+}
+
+.stop > .square{
+    transform: translate(7px, -5px);
+}
+
+.stop p {
+    margin: 0 0 0 10px;
+    font-size: 14px;
+}
+
+.M3{
+    background-color: purple;
+    color: white;
+    padding: 3px;
+    font-size: 22px!important;
+}
+
+.stop2 > .text-container{
+    transform: translate(15px,10px)!important;
+}
+
+.text-container {
+    display: flex;
+    white-space: nowrap;
+    gap: 0;
+    border: 1px solid black;
+    padding: 0;
+    transform: translate(25px, -5px)!important;
+}
+
+.text-container p {
+    margin: 0;
+    padding: 5px; /* Adjust the padding as needed */
+}
+
+.M3 {
+    margin: 0;
+    padding: 5px;
+}
+
+
+/* cimetière st Pierre */
+
+.divRounded{
+    display: flex;
+    white-space: nowrap;
+}
+
+.rounded{
+    position: absolute;
+    top:2%;
+    transform: translateX(-25%);
+    background-color:#000;
+    border:1px solid white;
+    height:20px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:20px;
+}
+
+.graveyard{
+    position: absolute;
+    top:1%;
+    left: 50%;
+    transform: translateX(10%);
+    color: red;
+}
+
+.rectangle{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:4%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* fin du cimetière st Pierre */
+
+
+/* parking carcassone */
+
+.carcassonne{
+    position: absolute;
+    top:3%;
+    left: 50%;
+    transform: translateX(10%);
+    color: black;
+    white-space: nowrap;
+}
+/* fin parking carcassone */
+
+/* Tour d'aygosi */
+
+.rectangleAygosi{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:6%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Aygosi{
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translateX(14%);
+    color: black;
+    white-space: nowrap;
+}
+/* fin de Tour d'aygosi */
+
+/* Les cigales */
+.rectangleCigales{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:8%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cigales{
+    position: absolute;
+    top:7%;
+    left: 50%;
+    transform: translateX(18%);
+    color: black;
+    white-space: nowrap;
+}
+/* fin Les cigales */
+
+/* Bourget */
+
+.rectangleBourget{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bourget{
+    position: absolute;
+    top:9%;
+    left: 50%;
+    transform: translateX(24%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Bourget */
+
+/* Saint Pierre */
+
+.rectangleSaintPierre{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:12%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.saintPierre{
+    position: absolute;
+    top:11%;
+    left: 50%;
+    transform: translateX(16%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Saint Pierre */
+
+/* Gambetta */
+
+.rectangleGambetta{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:14%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gambetta{
+    position: absolute;
+    top:13%;
+    left: 50%;
+    transform: translateX(18%);
+    color: black;
+    white-space: nowrap;
+}
+/* fin Gambetta */
+
+/* Ganay */
+
+.RectangleGanay{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:16%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ganay{
+    position: absolute;
+    top:15%;
+    left: 50%;
+    transform: translateX(26%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Ganay */
+
+/* Bellegarde */
+
+.RectangleBellegarde{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:18%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bellegarde{
+    position: absolute;
+    top:17%;
+    left: 50%;
+    transform: translateX(18%);
+    color: black;
+    white-space: nowrap;
+}
+
+
+
+/* fin Bellegarde */
+
+/* Violette */
+
+.RectangleViolette{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.violette{
+    position: absolute;
+    top:19%;
+    left: 50%;
+    transform: translateX(22%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Violette */
+
+/* Giannotti */
+
+.RectangleGianotti{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:22%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gianotti{
+    position: absolute;
+    top:21%;
+    left: 50%;
+    transform: translateX(22%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Giannotti */
+
+/* giannoti2 */
+
+.RectangleGianotti2{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:24%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gianotti2{
+    position: absolute;
+    top:23%;
+    left: 50%;
+    transform: translateX(22%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin giannoti2 */
+
+/* Pasteur */
+
+.RectanglePasteur{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:26%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pasteur{
+    position: absolute;
+    top:25%;
+    left: 50%;
+    transform: translateX(24%);
+    color: black;
+    white-space: nowrap;
+}
+/* fin Pasteur */
+
+/* pasteur Notre-dame */
+
+.RectanglePasteurNotreDame{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:28%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pasteurNotreDame{
+    position: absolute;
+    top:27%;
+    left: 50%;
+    transform: translateX(9%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin pasteur Notre-dame */
+
+/* Solari */
+
+.RectangleSolari{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.solari{
+    position: absolute;
+    top:29%;
+    left: 50%;
+    transform: translateX(30%);
+    color: black;
+    white-space: nowrap;
+}
+/* fin Solari */
+
+/* Nation */
+
+.RectangleNation{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:32%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nation{
+    position: absolute;
+    top:31%;
+    left: 50%;
+    transform: translateX(30%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Nation */
+
+/* Hôpital */
+
+.RectangleHopital{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:34%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hopital{
+    position: absolute;
+    top:33%;
+    left: 50%;
+    transform: translateX(30%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Hôpital */
+
+/* Hôpital Tamaris */
+
+.RectangleHopitalTamaris{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:36%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hopitalTamaris{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translateX(12%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Hôpital Tamaris */
+
+
+/* Hôpital 2 */
+
+.RectangleHopital2{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:38%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hopital2{
+    position: absolute;
+    top:37%;
+    left: 50%;
+    transform: translateX(28%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Hôpital 2 */
+
+/* rocher du dragon */
+
+.RectangleRocherDuDragon{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rocherDuDragon{
+    position: absolute;
+    top:39%;
+    left: 50%;
+    transform: translateX(11%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin rocher du dragon */
+
+/* Parc Mozart */
+
+.RectangleParcMozart{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:42%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.parcMozart{
+    position: absolute;
+    top:41%;
+    left: 50%;
+    transform: translateX(18%);
+    color: black;
+    white-space: nowrap;
+}
+/* fin Parc Mozart */
+
+/* Pontier */
+
+.RectanglePontier{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:44%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pontier{
+    position: absolute;
+    top:43%;
+    left: 50%;
+    transform: translateX(28%);
+    color: black;
+    white-space: nowrap;
+}
+
+
+/* fin Pontier */
+
+/* barre horizontal */
+
+.barreHorizontal{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: purple;
+    top:46%;
+
+}
+
+/* fin barre horizontal */
+
+
+/* barre verticale */
+
+.divBarreVerticale{
+    position: relative;
+}
+
+.barreVerticale{
+    z-index: 0;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: purple;
+    width: 10px;
+    height: 750px;
+}
+
+
+/* fin barre verticale */
+
+/* Renoir */
+
+.RectangleRenoir{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.renoir{
+    z-index: 1;
+    position: absolute;
+    top:8%;
+    left: 50%;
+    transform: translateX(28%);
+    color: black;
+    white-space: nowrap;
+}
+/* fin Renoir */
+
+/* Olympia */
+
+.RectangleOlympia{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.olympia{
+    z-index: 1;
+    position: absolute;
+    top:18%;
+    left: 50%;
+    transform: translateX(20%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Olympia */
+
+/* fleury Val */
+
+.RectangleFleuryVal{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fleuryVal{
+    z-index: 1;
+    position: absolute;
+    top:28%;
+    left: 50%;
+    transform: translateX(18%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin fleury Val */
+
+/* barre horizontal  */
+
+.divSecondeBarreHorizontal{
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: purple;
+    top: 40%;
+}
+
+/* fin barre horizontal  */
+
+/* seconde barre vertical */
+
+.secondeBarreVertical{
+    position: absolute;
+    right: 0;
+    width: 10px;
+    height: 200px;
+    background-color: purple;
+}
+
+
+
+
+/* fin seconde barre vertical */
+
+
+/* chalet */
+
+.RectangleChalet{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.chalet{
+    z-index: 1;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translateX(28%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin chalet */
+
+/* Koenig */
+
+.RectangleKoenig{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.koenig{
+    z-index: 1;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translateX(24%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Koenig */
+
+/* Seigneurie */
+
+.RectangleSeigneurie{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.seigneurie{
+    z-index: 1;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translateX(16%);
+    color: black;
+    white-space: nowrap;
+}
+/* Fin Seigneurie */
+
+/* troisieme barre vertical */
+
+.troisiemeBarreHorizontal{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 10px;
+    background-color: purple;
+    bottom: 0;
+
+}
+
+/* fin troisieme barre vertical */
+
+/* Laurier */
+
+.RectangleLaurier{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.laurier{
+    z-index: 1;
+    position: absolute;
+    top:68%;
+    left: 50%;
+    transform: translateX(26%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Laurier */
+
+/* Boutière */
+
+.RectangleBoutiere{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:85%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.boutiere{
+    z-index: 1;
+    position: absolute;
+    top:83%;
+    left: 50%;
+    transform: translateX(26%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Boutière */
+
+/* Beauvallon */
+
+.stop2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-7%);
+}
+
+/* fin Beauvallon */
+
+/* Guyon */
+
+.RectangleGuyon{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.guyon{
+    position: absolute;
+    top:89.5%;
+    left: 50%;
+    transform: translateX(28%);
+    color: black;
+    white-space: nowrap;
+}
+
+/* fin Guyon */
+
+/* Verte Colline */
+
+.RectangleVerteColline{
+    width:20px ;
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    top:95%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.verteColline{
+    position: absolute;
+    top:94.5%;
+    left: 50%;
+    transform: translateX(13%);
+    color: black;
+    white-space: nowrap;
+}
+/* fin Verte Colline */
+
+@media (max-width: 768px) {
+    .square {
+        width: 20px;
+        height: 10px;
+    }
+
+    .stop p {
+        font-size: 12px;
+    }
+}

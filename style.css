@@ -1,0 +1,119 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.tableSection {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: calc(50vw);
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.firstLine {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+
+    background-color: #18347A;
+    color: white;
+}
+
+#title{
+    text-align: left;
+}
+.mondayToFriday{
+    font-size: 24px;
+}
+.secondLine {
+    background-color: #18347A;
+    color: white;
+}
+
+td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    width:auto;
+    font-weight: bold;
+}
+
+
+.noBorder td{
+    border: none;
+}
+
+.thirdLine{
+    align-items: flex-start;
+}
+
+.lastRow{
+   height:200px;
+}
+
+.lastRow td{
+    vertical-align: top;
+}
+
+.c{
+ color: black;
+}
+
+
+
+.spanH span {
+    font-size: 12px;
+}
+
+.spanH td{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    table{
+        width: 100vw!important;
+    }
+
+    td{
+        font-size: 12px;
+        text-align: center!important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    table{
+        width: 100vw!important;
+    }
+
+    td{
+        font-size: 12px;
+        text-align: center;
+    }
+    td div{
+        text-align: center;
+        transform: translateX(-5px);
+    }
+    .spanH td{
+        font-size: 12px;
+        transform: translateX(-6px);
+    }
+
+    .spanH span {
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<section class="tableSection">
+    <div class="table">
+        <table>
+            <tr class="firstLine">
+                <td id="title" colspan="18">LUNDI AU VENDREDI - <span class="mondayToFriday">Monday to friday</span></td>
+            </tr>
+            <tr class="secondLine spanH">
+                <td>5<span>h</span></td>
+                <td>6<span>h</span></td>
+                <td>7<span>h</span></td>
+                <td>8<span>h</span></td>
+                <td>9<span>h</span></td>
+                <td>10<span>h</span></td>
+                <td>11<span>h</span></td>
+                <td>12<span>h</span></td>
+                <td>13<span>h</span></td>
+                <td>14<span>h</span></td>
+                <td>15<span>h</span></td>
+                <td>16<span>h</span></td>
+                <td>17<span>h</span></td>
+                <td>18<span>h</span></td>
+                <td>19<span>h</span></td>
+                <td>20<span>h</span></td>
+                <td>21<span>h</span></td>
+                <td>22<span>h</span></td>
+            </tr>
+            <tr class="secondLine noBorder lastRow c">
+                <td></td>
+                <td></td>
+                <td>
+                    <div>01</div>
+                    <div>26a</div>
+                    <div>49</div>
+                </td>
+                <td>
+                    <div>08</div>
+                    <div>29a</div>
+                    <div>56</div>
+                </td>
+                <td>
+                    <div>22</div>
+                    <div>49a</div>
+                </td>
+                <td>
+                    <div>19</div>
+                    <div>46</div>
+                </td>
+                <td>
+                    <div>13k</div>
+                    <div>40</div>
+                </td>
+                <td>
+                    <div>01</div>
+                    <div>25a</div>
+                    <div>50</div>
+                </td>
+                <td>
+                    <div>15</div>
+                    <div>38a</div>
+                    <div>58</div>
+                </td>
+                <td>
+                    <div>25</div>
+                    <div>49a</div>
+                </td>
+                <td>
+                    <div>11</div>
+                    <div>37</div>
+                </td>
+                <td>
+                    <div>00k</div>
+                    <div>23</div>
+                    <div>50</div>
+                </td>
+                <td>
+                    <div>14k</div>
+                    <div>40</div>
+                </td>
+                <td>
+                    <div>05</div>
+                    <div>29a</div>
+                    <div>55</div>
+                </td>
+                <td>
+                    <div>21</div>
+                    <div>44a</div>
+                </td>
+                <td>
+                    <div>04</div>
+                    <div>29</div>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+
+        </table>
+    </div>
+</section>
+<script>
+
+    var lastRows = document.querySelectorAll('.lastRow');
+
+    lastRows.forEach(function(row) {
+
+        var cells = row.getElementsByTagName('td');
+
+        for (var i = 0; i < cells.length; i++) {
+
+            if (i % 2 === 0) {
+                cells[i].style.backgroundColor = '#A3C2E5';
+            } else {
+                cells[i].style.backgroundColor = '#DCE9F6';
+            }
+        }
+    });
+
+
+</script>
+</body>
+</html>
