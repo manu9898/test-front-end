@@ -84,7 +84,18 @@ td {
     font-size: 20px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px){
+    td{
+        font-size: 12px;
+        text-align: center!important;
+    }
+    .spanH td{
+        font-size: 12px;
+        transform: translateX(-6px);
+    }
+}
+
+@media screen and (max-width: 980px) {
     table{
         width: 100vw!important;
     }
@@ -115,5 +126,13 @@ td {
 
     .spanH span {
         font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    td{
+        font-size: 8px!important;
+        text-align: center;
     }
 }
