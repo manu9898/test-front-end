@@ -954,12 +954,118 @@ body, html {
 /* fin Verte Colline */
 
 @media (max-width: 768px) {
-    .square {
-        width: 20px;
-        height: 10px;
-    }
+
 
     .stop p {
         font-size: 12px;
     }
+
+
 }
+
+@media (max-width: 1680px) {
+    .guyontxt {
+        transform: translate(15px, -10px)!important;
+    }
+
+    .ganay{
+        transform: translateX(13px);
+    }
+
+    .violette{
+        transform: translateX(13px);
+    }
+
+    .gianotti{
+        transform: translateX(13px);
+    }
+
+    .gianotti2{
+        transform: translateX(13px);
+    }
+
+    .gambetta{
+        transform: translateX(13px);
+    }
+
+    .renoir{
+        transform: translateX(13px);
+    }
+
+    .olympia{
+        transform: translateX(13px);
+    }
+
+    .fleuryVal{
+        transform: translateX(13px);
+    }
+
+    .chalet{
+        transform: translateX(13px);
+    }
+
+    .koenig{
+        transform: translateX(13px);
+    }
+
+    .seigneurie{
+        transform: translateX(13px);
+    }
+
+    .laurier{
+        transform: translateX(13px);
+    }
+
+    .verteColline{
+        transform: translate(15px, -7px);
+    }
+
+    .bourget{
+        transform: translateX(13px);
+    }
+
+    .pasteur{
+        transform: translateX(13px);
+    }
+
+    .pasteurNotreDame{
+        transform: translateX(13px);
+    }
+    .solari{
+        transform: translateX(13px);
+    }
+
+    .square {
+        width: 20px;
+        height: 10px;
+        transform: translate(11px, -10px)!important;
+    }
+
+    .square3{
+        transform: translate(2px, 10px)!important;
+    }
+
+    .square2{
+        transform: translate(1px, 10px)!important;
+    }
+
+    .beauvallon{
+        transform: translateY(5px);
+    }
+
+    .chevaliere{
+        transform: translateY(5px);
+    }
+}
+
+@media (max-width: 1680px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: calc(1.5em - 0.2em);
+    }
+}
+
+
